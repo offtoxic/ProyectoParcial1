@@ -1,0 +1,111 @@
+body {
+    color: white;
+}
+
+img {
+    margin: 0;
+}
+
+.divContainer {
+    background: none;
+    display: flex;
+    width: 100%;
+    height: 410px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.divContainer2 {
+    background: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+    height: 410px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.divIzquierdoContainer2 {
+    width: 60%;
+    background: black;
+    height: 408px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.divDerechoContainer2 {
+    width: 20%;
+    background: black;
+    height: 408px;
+    justify-content: center;
+}
+
+.divIzquierdo2 {
+    background: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.divIzquierdo2 p {
+    margin: 4px;
+}
+
+.divPI2 {
+    background: fuchsia;
+    margin: 4px;
+}
+
+.divDerecho2 {
+    background: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.divDerecho2 p {
+    margin: 4px;
+}
+
+.divPD2 {
+    background: purple;
+    margin: 4px;
+}
+
+.divIzquierdoContainer {
+    width: 40%;
+    background: black;
+    height: 408px;
+    justify-content: center;
+    display: grid;
+}
+
+.divIzquierdoContainer p {
+    margin: 4px;
+}
+
+.divDerechoContainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 408px;
+}
+
+.divIzquierdo {
+    width: 50%;
+    background: red;
+    height: 408px;
+    justify-content: center;
+    display: grid;
+}
+
+.divIzquierdo p {
+    margin: 4px;
+}
+
+.divDerecho {
+    width: 50%;
+    background: blue;
+    height: 408px;
+    justify-content: center;
+    display: grid;
+}
+
+.divDerecho p {
+    margin: 4px;
+}
